@@ -1,6 +1,10 @@
 "vimrc file
 "by Gregory Oladipo
 
+"pathogen calls ;)
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 :syntax enable
 
 "autocmds
