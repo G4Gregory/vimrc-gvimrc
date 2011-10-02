@@ -5,6 +5,9 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+"toggle Gundo
+nnoremap <F5> :GundoToggle<CR>
+
 :syntax enable
 
 "autocmds
