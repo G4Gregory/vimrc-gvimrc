@@ -74,12 +74,18 @@ set sts=2
 set ai
 
 "ALL MAPPINGS...
+"edit VIMRC on the fly
+let mapleader = ","
+nmap <leader>v :tabedit $MYVIMRC<CR>
+
 "window movement mappings
 map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+
 "bubble single lines
+"NEED TO CHANGE THE MAPPINGS HERE...same as my window movements!!!
 nmap <C-k> ddkP
 nmap <C-j> ddp
 "bubble visual lines
