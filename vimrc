@@ -75,10 +75,11 @@ set ai
 
 "ALL MAPPINGS...
 "window movement mappings
-map <C-h> <C-w>h
+"nmap <C-h> <C-w>h
 "map <C-j> <C-w>j
 "map <C-k> <C-w>k
-map <C-l> <C-w>l
+"nmap <C-l> <C-w>l
+
 "bubble single lines
 nmap <C-k> ddkP
 nmap <C-j> ddp
