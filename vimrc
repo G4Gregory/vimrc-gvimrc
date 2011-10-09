@@ -1,10 +1,14 @@
 "VIMRC FILE
 "BY GREGORY OLADIPO
 
+"pathogen calls (goes at top) 
+  call pathogen#runtime_append_all_bundles()
+  call pathogen#helptags()
+  
 "PLUGINS
   "solarized colortheme
     syntax enable
-    :colorscheme solarized
+    colorscheme solarized
 
     if has('gui_running')
     set background=dark
@@ -12,9 +16,6 @@
         set background=light
       endif
 
-  "pathogen calls 
-    call pathogen#runtime_append_all_bundles()
-    call pathogen#helptags()
 
   "toggle Gundo
   nnoremap <F5> :GundoToggle<CR>
