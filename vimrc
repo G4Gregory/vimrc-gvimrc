@@ -4,9 +4,13 @@
 "PLUGINS
   "solarized colortheme
     syntax enable
+    :colorscheme solarized
+
+    if has('gui_running')
     set background=dark
-    "set background=light
-    colorscheme solarized
+      else
+        set background=light
+      endif
 
   "pathogen calls 
     call pathogen#runtime_append_all_bundles()
