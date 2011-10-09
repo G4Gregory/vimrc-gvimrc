@@ -1,5 +1,5 @@
 :syntax enable
-colorscheme desert
+"colorscheme desert
 
 "set guioptions=-T
 
