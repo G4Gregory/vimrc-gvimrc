@@ -1,6 +1,12 @@
 "vimrc file
 "by Gregory Oladipo
 
+"colorscheme
+syntax enable
+set background=dark
+"set background=light
+colorscheme solarized
+
 "pathogen calls ;)
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
