@@ -1,18 +1,19 @@
-"vimrc file
-"by Gregory Oladipo
+"VIMRC FILE
+"BY GREGORY OLADIPO
 
-"colorscheme
-syntax enable
-set background=dark
-"set background=light
-colorscheme solarized
+"PLUGINS
+  "solarized colortheme
+    syntax enable
+    set background=dark
+    "set background=light
+    colorscheme solarized
 
-"pathogen calls ;)
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+  "pathogen calls 
+    call pathogen#runtime_append_all_bundles()
+    call pathogen#helptags()
 
-"toggle Gundo
-nnoremap <F5> :GundoToggle<CR>
+  "toggle Gundo
+  nnoremap <F5> :GundoToggle<CR>
 
 :syntax enable
 
