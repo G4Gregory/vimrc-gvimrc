@@ -1,6 +1,6 @@
 :syntax enable
 "colorscheme desert
-
+set transparency=10
 "set guioptions=-T
 
 "setting line break

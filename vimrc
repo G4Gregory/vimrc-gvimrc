@@ -29,6 +29,7 @@ filetype plugin indent on
 "AUTOCMDS
   if has ("autocmd")
     autocmd bufwritepost .vimrc source $MYVIMRC
+    autocmd bufwritepost .gvimrc source $MYGVIMRC
   endif
 
   if has("autocmd")
