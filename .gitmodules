@@ -10,3 +10,18 @@
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/netrw"]
+	path = bundle/netrw
+	url = https://github.com/vim-scripts/netrw.vim.git
+[submodule "bundle/zencoding"]
+	path = bundle/zencoding
+	url = https://github.com/mattn/zencoding-vim.git
+[submodule "bundle/rails"]
+	path = bundle/rails
+	url = https://github.com/vim-scripts/rails.vim.git
+[submodule "bundle/dbext"]
+	path = bundle/dbext
+	url = https://github.com/vim-scripts/dbext.vim.git
+[submodule "bundle/nerdtree-ack"]
+	path = bundle/nerdtree-ack
+	url = https://github.com/vim-scripts/NERD_Tree-and-ack.git

@@ -38,6 +38,10 @@ filetype plugin indent on
   endif
 
 "ALL MAPPINGS...
+"edit VIMRC on the fly
+let mapleader = ","
+nmap <leader>v :tabedit $MYVIMRC<CR>
+
 "window movement mappings
 "nmap <C-h> <C-w>h
 "map <C-j> <C-w>j
@@ -86,5 +90,3 @@ set ruler
 "remove search highlighting
 set nohls
 set incsearch
-
-
