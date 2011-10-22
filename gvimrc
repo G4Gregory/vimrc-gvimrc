@@ -1,7 +1,7 @@
 :syntax enable
 "colorscheme desert
 "transparency
-set transparency=50
+set transparency=10
 
 "set guioptions=-T
 
