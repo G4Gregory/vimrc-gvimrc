@@ -1,7 +1,14 @@
 :syntax enable
-"colorscheme desert
+
+"fontsize
+set guifont=Menlo\ Regular:h17
+
+"window dimensions
+set lines=30
+set columns=100
+
+"transparency set...
 set transparency=10
-"set guioptions=-T
 
 "setting line break
 set tw=85
