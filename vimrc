@@ -55,6 +55,9 @@ nmap <C-j> ddp
 vmap <C-k> xkP'[V']
 vmap <C-j> xp'[V']
 
+"add to end of mappings for repeat.vim
+silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
+
 "indentation
 set autoindent
 set smartindent
