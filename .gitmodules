@@ -19,9 +19,3 @@
 [submodule "bundle/rails"]
 	path = bundle/rails
 	url = https://github.com/vim-scripts/rails.vim.git
-[submodule "bundle/dbext"]
-	path = bundle/dbext
-	url = https://github.com/vim-scripts/dbext.vim.git
-[submodule "bundle/nerdtree-ack"]
-	path = bundle/nerdtree-ack
-	url = https://github.com/vim-scripts/NERD_Tree-and-ack.git
