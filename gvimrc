@@ -10,8 +10,12 @@ set columns=100
 "transparency set...
 set transparency=10
 
+"remove toolbar
+set guioptions-=T
+
 "setting line break
 set tw=85
+set showtabline=2
 
 "display invisibles
 set list

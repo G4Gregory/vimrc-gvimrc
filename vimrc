@@ -41,6 +41,7 @@ filetype plugin indent on
 "edit VIMRC on the fly
 let mapleader = ","
 nmap <leader>v :tabedit $MYVIMRC<CR>
+nmap <leader>g :tabedit ~/.vim/gvimrc<CR>
 
 "window movement mappings
 "nmap <C-h> <C-w>h
@@ -62,6 +63,8 @@ silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 set autoindent
 set smartindent
 
+"set the title
+set title
 "tabbing and shifting
 set ts=2 sts=2 sw=2 expandtab
 
