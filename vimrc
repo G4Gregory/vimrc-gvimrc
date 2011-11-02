@@ -44,17 +44,17 @@ nmap <leader>v :tabedit $MYVIMRC<CR>
 nmap <leader>g :tabedit ~/.vim/gvimrc<CR>
 
 "window movement mappings
-"nmap <C-h> <C-w>h
-"map <C-j> <C-w>j
-"map <C-k> <C-w>k
-"nmap <C-l> <C-w>l
+nmap <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+nmap <C-l> <C-w>l
 
-"bubble single lines
-nmap <C-k> ddkP
-nmap <C-j> ddp
-"bubble visual lines
-vmap <C-k> xkP'[V']
-vmap <C-j> xp'[V']
+" bubble single lines
+nmap <D-k> ddkP
+nmap <D-j> ddp
+" bubble visual lines
+vmap <D-k> xkP'[V']
+vmap <D-j> xp'[V']
 
 "add to end of mappings for repeat.vim
 silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
