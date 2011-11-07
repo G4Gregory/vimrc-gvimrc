@@ -66,13 +66,16 @@ set smartindent
 "set the title
 set title
 "tabbing and shifting
-set ts=2 sts=2 sw=2 expandtab
+set ts=2 sts=2 sw=2 tw=80 expandtab
 
-"ab settings and indentation!
+"tab settings and indentation!
 set ts=2
 set sw=2
 set sts=2
 set ai
+
+"tab completion
+set complete=.,w,b,t
 
 "command height
 set ch=3
