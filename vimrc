@@ -25,7 +25,7 @@ filetype plugin indent on
 
   "toggle Gundo
   nnoremap <F5> :GundoToggle<CR>
-
+  
 "AUTOCMDS
   if has ("autocmd")
     autocmd bufwritepost .vimrc source $MYVIMRC
