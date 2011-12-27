@@ -56,6 +56,10 @@ nmap <D-j> ddp
 vmap <D-k> xkP'[V']
 vmap <D-j> xp'[V']
 
+"ins-completion mappings
+inoremap ^F ^X^F
+inoremap ^L ^X^L
+
 "add to end of mappings for repeat.vim
 silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 

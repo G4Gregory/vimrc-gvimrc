@@ -37,3 +37,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/vim-scripts/The-NERD-tree.git
+[submodule "bundle/lusty"]
+	path = bundle/lusty
+	url = https://github.com/vim-scripts/LustyExplorer.git
