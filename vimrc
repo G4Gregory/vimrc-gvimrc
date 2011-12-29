@@ -5,6 +5,9 @@
   call pathogen#runtime_append_all_bundles()
   call pathogen#helptags()
 
+"for LustyExplorer
+set hidden
+
 "dont behave like VI
 set nocp
 set bs=indent,eol,start
