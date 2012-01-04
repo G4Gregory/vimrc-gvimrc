@@ -31,8 +31,10 @@ filetype plugin indent on
   
 "AUTOCMDS
   if has ("autocmd")
+    "these break syntax highlighting...need to fix...
     autocmd bufwritepost .vimrc source $MYVIMRC
     autocmd bufwritepost .gvimrc source $MYGVIMRC
+    "nice to have an autocmd here for snippets...
   endif
 
   if has("autocmd")
@@ -106,3 +108,5 @@ set ruler
 "remove search highlighting
 set nohls
 set incsearch
+"transparency set...
+set transparency=5
