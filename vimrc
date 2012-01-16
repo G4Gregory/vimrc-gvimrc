@@ -6,6 +6,8 @@
   call pathogen#helptags()
 
 "for LustyExplorer
+:let g:LustyExplorerSuppressRubyWarning = 1
+:let g:LustyExplorerAlwaysShowDotFiles = 1
 set hidden
 
 "dont behave like VI
@@ -62,8 +64,9 @@ vmap <D-k> xkP'[V']
 vmap <D-j> xp'[V']
 
 "ins-completion mappings
-inoremap ^F ^X^F
 inoremap ^L ^X^L
+inoremap ^F ^X^F
+inoremap ^K ^N^P
 
 "add to end of mappings for repeat.vim
 silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
@@ -108,5 +111,3 @@ set ruler
 "remove search highlighting
 set nohls
 set incsearch
-"transparency set...
-set transparency=5

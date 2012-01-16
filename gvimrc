@@ -8,7 +8,7 @@ set lines=30
 set columns=100
 
 " transparency set...
-" set transparency=5
+set transparency=5
 
 "remove toolbar
 set guioptions-=T
