@@ -1,7 +1,3 @@
 *~
 *.swp
 .sass-cache/
-bundle/nerdtree
-bundle/netrw
-bundle/rails
-bundle/snipmate
