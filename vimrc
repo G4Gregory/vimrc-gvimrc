@@ -25,6 +25,9 @@ filetype plugin indent on
 
   "toggle Gundo
   nnoremap <F5> :GundoToggle<CR>
+  "NERDTree
+  "toggle hidden files...
+    let NERDTreeShowHidden=1
 
 "AUTOCMDS
   if has ("autocmd")
