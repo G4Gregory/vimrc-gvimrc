@@ -7,7 +7,7 @@ set guifont=Menlo\ Regular:h17
 set lines=30
 set columns=100
 
-"transparency set...
+" transparency set...
 set transparency=5
 
 "remove toolbar

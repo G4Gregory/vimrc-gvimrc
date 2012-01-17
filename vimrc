@@ -5,6 +5,11 @@
   call pathogen#runtime_append_all_bundles()
   call pathogen#helptags()
 
+"for LustyExplorer
+:let g:LustyExplorerSuppressRubyWarning = 1
+:let g:LustyExplorerAlwaysShowDotFiles = 1
+set hidden
+
 "dont behave like VI
 set nocp
 set bs=indent,eol,start
@@ -31,8 +36,10 @@ filetype plugin indent on
 
 "AUTOCMDS
   if has ("autocmd")
+    "these break syntax highlighting...need to fix...
     autocmd bufwritepost .vimrc source $MYVIMRC
     autocmd bufwritepost .gvimrc source $MYGVIMRC
+    "nice to have an autocmd here for snippets...
   endif
 
   if has("autocmd")
@@ -59,6 +66,11 @@ nmap <D-j> ddp
 vmap <D-k> xkP'[V']
 vmap <D-j> xp'[V']
 
+"ins-completion mappings
+inoremap ^L ^X^L
+inoremap ^F ^X^F
+inoremap ^K ^N^P
+
 "add to end of mappings for repeat.vim
 silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 
@@ -69,13 +81,16 @@ set smartindent
 "set the title
 set title
 "tabbing and shifting
-set ts=2 sts=2 sw=2 expandtab
+set ts=2 sts=2 sw=2 tw=80 expandtab
 
-"ab settings and indentation!
+"tab settings and indentation!
 set ts=2
 set sw=2
 set sts=2
 set ai
+
+"tab completion
+set complete=.,w,b,t
 
 "command height
 set ch=3
