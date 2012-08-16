@@ -10,6 +10,10 @@
 :let g:LustyExplorerAlwaysShowDotFiles = 1
 set hidden
 
+"line for Exuberant Ctags & Taglist...
+let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
+set tags=tags
+
 "dont behave like VI
 set nocp
 set bs=indent,eol,start
