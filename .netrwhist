@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/Admin/Sites/highlandgroup/aplus'
-let g:netrw_dirhist_2='/Users/Admin/Sites/dkoenig'
-let g:netrw_dirhist_3='/Users/Admin/.vimperator/info'
-let g:netrw_dirhist_4='/Users/Admin/.vimperator/info/default'
-let g:netrw_dirhist_5='/Users/Admin/.vim/bundle'
-let g:netrw_dirhist_6='ftp://dkoenig@david-koenig.com/'
-let g:netrw_dirhist_7='/Users/Admin/.vim/.git'
