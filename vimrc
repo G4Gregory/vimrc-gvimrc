@@ -29,7 +29,7 @@ filetype plugin indent on
     if has('gui_running')
     set background=dark
       else
-        set background=light
+        set background=dark
       endif
 
   "toggle Gundo
