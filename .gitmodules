@@ -52,3 +52,6 @@
 [submodule "bundle/gist-vim"]
 	path = bundle/gist-vim
 	url = https://github.com/mattn/gist-vim.git
+[submodule "bundle/vim-visual-star-search"]
+	path = bundle/vim-visual-star-search
+	url = https://github.com/bronson/vim-visual-star-search.git
