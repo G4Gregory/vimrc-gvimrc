@@ -23,14 +23,15 @@ filetype plugin indent on
   
 "PLUGINS
   "solarized colortheme
-    syntax enable
-    colorscheme solarized
+    "syntax enable
+    "colorscheme solarized
 
-    if has('gui_running')
-    set background=dark
-      else
-        set background=dark
-      endif
+    " if has('gui_running')
+    " set background=dark
+    "   else
+    "     set background=dark
+    "   endif
+    colorscheme distinguished
 
   "toggle Gundo
   nnoremap <F5> :GundoToggle<CR>
