@@ -86,13 +86,7 @@ set smartindent
 "set the title
 set title
 "tabbing and shifting
-set ts=2 sts=2 sw=2 tw=80 expandtab
-
-"tab settings and indentation!
-set ts=2
-set sw=2
-set sts=2
-set ai
+set ts=4 sts=4 sw=4 tw=80 ai expandtab
 
 "tab completion
 set complete=.,w,b,t
