@@ -1,9 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/Admin/Sites/donijac'
-let g:netrw_dirhist_2='/Users/Admin/Desktop/rss_json.html'
-let g:netrw_dirhist_3='/Users/Admin/Dropbox/LEYE/sandbox'
-let g:netrw_dirhist_4='/Users/Admin/Desktop/rebecca_slideshow'
-let g:netrw_dirhist_5='/Users/Admin/Desktop/myapp'
-let g:netrw_dirhist_6='/Users/Admin/Dropbox/javascript'
-let g:netrw_dirhist_7='/Users/Admin/.vim'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/gregory/Dropbox/Apps/markable.in'
+let g:netrw_dirhist_2='/home/gregory/Sites/uplift/tests'
