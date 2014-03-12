@@ -27,7 +27,7 @@ filetype plugin indent on
     colorscheme solarized
 
      if has('gui_running')
-     set background=light
+     set background=dark
        else
          set background=dark
        endif
