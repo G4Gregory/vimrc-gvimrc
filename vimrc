@@ -33,6 +33,7 @@ set bs=indent,eol,start
         Plugin 'leshill/vim-json'
         Plugin 'Shutnik/jshint2.vim'
         Plugin 'Lokaltog/vim-easymotion'
+        Plugin 'Valloric/YouCompleteMe'
 
     call vundle#end()
     filetype plugin indent on
