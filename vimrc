@@ -5,39 +5,68 @@
   call pathogen#runtime_append_all_bundles()
   call pathogen#helptags()
 
-"for LustyExplorer
-:let g:LustyExplorerSuppressRubyWarning = 1
-:let g:LustyExplorerAlwaysShowDotFiles = 1
-set hidden
-
-"line for Exuberant Ctags & Taglist...
-let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
-set tags=tags
-
-"dont behave like VI
-set nocp
+set nocompatible
+filetype off
 set bs=indent,eol,start
 
+"VUNDLE PLUGIN MANAGER.
+    set rtp+=~/.vim/bundle/Vundle.vim
+    call vundle#begin()
+
+    "Vundle is required, it manages itself...
+        Plugin 'gmarik/Vundle.vim'
+        Plugin 'tpope/vim-fugitive'
+        Plugin 'tpope/vim-surround'
+        Plugin 'tpope/vim-repeat'
+        Plugin 'tpope/vim-commentary'
+        Plugin 'marijnh/tern_for_vim'
+        Plugin 'godlygeek/tabular'
+        Plugin 'mattn/emmet-vim'
+        Plugin 'rstacruz/sparkup'
+        Plugin 'sjbach/lusty'
+        Plugin 'scrooloose/syntastic'
+        Plugin 'scrooloose/nerdtree'
+        Plugin 'pangloss/vim-javascript'
+        Plugin 'msanders/snipmate.vim'
+        Plugin 'mattn/gist-vim'
+        Plugin 'hallettj/jslint.vim'
+        Plugin 'leshill/vim-json'
+        Plugin 'Shutnik/jshint2.vim'
+        Plugin 'Lokaltog/vim-easymotion'
+
+    call vundle#end()
+    filetype plugin indent on
+
+
 "need to allow for comments to be indented
-filetype plugin indent on
+"filetype plugin indent on
   
 "PLUGINS
-  "solarized colortheme
+    "LustyExplorer settings...
+        :let g:LustyExplorerSuppressRubyWarning = 1
+        :let g:LustyExplorerAlwaysShowDotFiles = 1
+        set hidden
+
+    "Exuberant Ctags & Taglist settings...
+        let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
+        set tags=tags
+
+    "solarized colortheme
     syntax enable
     colorscheme solarized
 
-     if has('gui_running')
-     set background=dark
-       else
-         set background=dark
-       endif
-    "colorscheme distinguished
+    if has('gui_running')
+        set background=dark
+    else
+        set background=dark
+    endif
 
-  "toggle Gundo
-  nnoremap <F5> :GundoToggle<CR>
-  "NERDTree
-  "toggle hidden files...
-    let NERDTreeShowHidden=1
+    "Gundo toggle...
+    nnoremap <F5> :GundoToggle<CR>
+
+    "NERDTree
+        "toggle hidden files...
+            let NERDTreeShowHidden=1
 
 "AUTOCMDS
   if has ("autocmd")
