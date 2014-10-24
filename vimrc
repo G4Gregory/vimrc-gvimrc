@@ -2,8 +2,8 @@
 "BY GREGORY OLADIPO
 
 "pathogen calls (goes at top)
-  call pathogen#runtime_append_all_bundles()
-  call pathogen#helptags()
+    call pathogen#runtime_append_all_bundles()
+    call pathogen#helptags()
 
 set nocompatible
 filetype off
@@ -14,6 +14,7 @@ set bs=indent,eol,start
     call vundle#begin()
 
     "Vundle is required, it manages itself...
+        Plugin 'altercation/vim-colors-solarized'
         Plugin 'gmarik/Vundle.vim'
         Plugin 'tpope/vim-fugitive'
         Plugin 'tpope/vim-surround'
@@ -21,6 +22,7 @@ set bs=indent,eol,start
         Plugin 'tpope/vim-commentary'
         Plugin 'marijnh/tern_for_vim'
         Plugin 'godlygeek/tabular'
+        Plugin 'plasticboy/vim-markdown'
         Plugin 'mattn/emmet-vim'
         Plugin 'rstacruz/sparkup'
         Plugin 'sjbach/lusty'
@@ -53,8 +55,8 @@ set bs=indent,eol,start
         set tags=tags
 
     "solarized colortheme
-    syntax enable
-    colorscheme solarized
+        syntax enable
+        colorscheme solarized
 
     if has('gui_running')
         set background=dark
@@ -130,8 +132,11 @@ set showmatch
 "mousehide
 set mh
 set mouse-=a
+
 "antialias fonts
 set anti
+set guifont=Monospace\ 15
+
 "setting line break
 set tw=85
 "help height

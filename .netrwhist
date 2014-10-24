@@ -1,7 +1,5 @@
 let g:netrw_dirhistmax  =10
-<<<<<<< HEAD
-let g:netrw_dirhist_cnt =0
-=======
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/Users/goladipo/Desktop'
->>>>>>> 8e3a1bfbd562cfbff22ac2e09ce6d5a97f4b6f1b
+let g:netrw_dirhist_2='/home/g4gregory/.vim'
+let g:netrw_dirhist_3='/home/g4gregory/Medianet/comp-sba-front/src/app/pages/generic/inquiry'
