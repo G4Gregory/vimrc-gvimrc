@@ -29,7 +29,13 @@ set bs=indent,eol,start
         Plugin 'scrooloose/syntastic'
         Plugin 'scrooloose/nerdtree'
         Plugin 'pangloss/vim-javascript'
-        Plugin 'msanders/snipmate.vim'
+        
+        "Snipmate Installation"
+        Plugin 'MarcWeber/vim-addon-mw-utils'
+        Plugin 'tomtom/tlib_vim'
+        Plugin 'garbas/vim-snipmate'
+        Plugin 'honza/vim-snippets'
+
         Plugin 'mattn/gist-vim'
         Plugin 'hallettj/jslint.vim'
         Plugin 'leshill/vim-json'

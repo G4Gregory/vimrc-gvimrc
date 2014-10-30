@@ -1,7 +1,8 @@
 :syntax enable
 
-"fontsize
-set guifont=Menlo\ Regular:h12
+"fonts
+set anti
+set guifont=Monospace\ 15
 
 "window dimensions
 set lines=30
