@@ -13,9 +13,11 @@ set bs=indent,eol,start
     set rtp+=~/.vim/bundle/Vundle.vim
     call vundle#begin()
 
+    "let Vundle manage Vundle, required
+    Plugin 'VundleVim/Vundle.vim'
+    
     "Vundle is required, it manages itself...
         Plugin 'altercation/vim-colors-solarized'
-        Plugin 'gmarik/Vundle.vim'
         Plugin 'tpope/vim-fugitive'
         Plugin 'tpope/vim-surround'
         Plugin 'tpope/vim-repeat'
